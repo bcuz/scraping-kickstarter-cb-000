@@ -21,3 +21,5 @@ def create_project_hash
   # p projects["Moby Dick: An Oratorio"]
   projects
 end
+
+create_project_hash
