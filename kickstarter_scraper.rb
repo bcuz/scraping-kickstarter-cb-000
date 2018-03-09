@@ -15,6 +15,6 @@ def create_project_hash
   end
 
   # im bored.
-  p projects["Moby Dick: An Oratorio"]
+  # p projects["Moby Dick: An Oratorio"]
   projects
 end
