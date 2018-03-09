@@ -4,7 +4,7 @@ require 'nokogiri'
 
 def create_project_hash
 
-  :projects = {}
+  projects = {}
 
   html = File.read('fixtures/kickstarter.html')
 
@@ -13,5 +13,5 @@ def create_project_hash
     p pj.css('.bbcard_name strong a').text
   end
 
-  {}
+  projects
 end
