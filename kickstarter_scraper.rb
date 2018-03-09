@@ -22,4 +22,4 @@ def create_project_hash
   projects
 end
 
-create_project_hash
+p create_project_hash["Moby Dick: An Oratorio"]
