@@ -13,5 +13,5 @@ def create_project_hash
     projects[pj.css('.bbcard_name strong a').text] = {}
   end
 
-  p projects
+  projects
 end
