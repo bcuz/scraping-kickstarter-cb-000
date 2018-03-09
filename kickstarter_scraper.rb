@@ -14,8 +14,6 @@ def create_project_hash
       description: pj.css('.bbcard_blurb').text,
       location: pj.css('.location-name').text,
       percent_funded: pj.css('.funded strong').text.to_i
-
-
     }
   end
 
