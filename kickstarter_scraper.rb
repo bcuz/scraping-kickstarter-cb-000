@@ -15,5 +15,5 @@ def create_project_hash
   end
 
   # im bored.
-  p projects[0].image_link
+  p projects
 end
