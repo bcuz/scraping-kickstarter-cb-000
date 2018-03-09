@@ -10,7 +10,11 @@ def create_project_hash
   kickstarter = Nokogiri::HTML(html)
   kickstarter.css('.project.grid_4').each do |pj|
     projects[pj.css('.bbcard_name strong a').text] = {
-      image_link: pj.css('img').attribute('src').text
+      image_link: pj.css('img').attribute('src').text,
+      :description: 
+
+      bbcard_blurb
+      
     }
   end
 
